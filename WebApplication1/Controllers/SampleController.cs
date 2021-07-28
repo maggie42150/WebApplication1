@@ -11,8 +11,8 @@ namespace WebApplication1.Controllers
         // GET: Sample
         public ActionResult Index()
         {
-           
-            ViewData["info"] = "你好";
+            ViewData["info"] = "Helloworld!!";
+         
             return View();
         }
     }
