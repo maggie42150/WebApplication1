@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
         public ActionResult Index()
         {
             ViewData["info"] = "Helloworld!!";
-            ViewData["info"] = "你好";
+         
             return View();
         }
     }
